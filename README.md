@@ -18,3 +18,7 @@ settings put global package_verifier_enable 1
 - `Grabatron-Unlimited-1.5.5.apk` — same package (`com.fgol.grabatron1`) and title, crystal total forced to 999,999 (`scripts/make_unlimited.py`), re-signed; the FGOL-signed original must be uninstalled first (different signature).
 
 On first launch the game may open its (dead) Facebook dashboard — tap **Return to Game**.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=heyitsj0n/Grabatron64&type=Date)](https://star-history.com/#heyitsj0n/Grabatron64&Date)
