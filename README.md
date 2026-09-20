@@ -21,4 +21,4 @@ On first launch the game may open its (dead) Facebook dashboard — tap **Return
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=heyitsj0n/Grabatron64&type=Date)](https://star-history.com/#heyitsj0n/Grabatron64&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=firestarter1996/Grabatron64&type=Date)](https://star-history.com/#firestarter1996/Grabatron64&Date)
