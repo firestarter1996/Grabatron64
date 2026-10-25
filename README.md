@@ -1,11 +1,11 @@
-# 🛸 Grabatron64
+# 🐄🛸📱 Grabatron64
 
-**Grabatron 1.5.5** (Future Games of London, 2012) on a 64-bit-only Pixel 8 Pro.
+**Grabatron 1.5.5** (Future Games of London, 2012) on a 64 bit only Pixel 8 Pro.
 
 Grabatron is © Future Games of London / Ubisoft; this is a fan compatibility build of the delisted 2012 Android release, not affiliated with or endorsed by them.
 
 ## Why it just works
-The APK is pure Java (no `lib/` directory at all), so it is ABI-independent — nothing had to be recompiled. Android 14 only refuses it because of its ancient target SDK:
+The APK is pure Java (no `lib/` directory at all), so it is ABI independent and nothing had to be recompiled. Android 14 only refuses it because of its ancient target SDK:
 
 ```
 settings put global package_verifier_enable 0     # INSTALL_FAILED_VERIFICATION_FAILURE otherwise
@@ -14,10 +14,14 @@ settings put global package_verifier_enable 1
 ```
 
 ## Builds (see Releases)
-- `Grabatron-1.5.5-original.apk` — untouched FGOL-signed APK (Internet Archive `com.fgol.grabatron`).
-- `Grabatron-Unlimited-1.5.5.apk` — same package (`com.fgol.grabatron1`) and title, crystal total forced to 999,999 (`scripts/make_unlimited.py`), re-signed; the FGOL-signed original must be uninstalled first (different signature).
+The latest release, [v1.5.5-64](https://github.com/firestarter1996/Grabatron64/releases/latest), has two APKs:
 
-On first launch the game may open its (dead) Facebook dashboard — tap **Return to Game**.
+- `Grabatron-1.5.5-original.apk`: the untouched FGOL signed APK (Internet Archive `com.fgol.grabatron`).
+- `Grabatron-Unlimited-1.5.5.apk`: same package (`com.fgol.grabatron1`) and title, crystal total forced to 999,999 (`scripts/make_unlimited.py`), re signed. Uninstall the FGOL signed original first, because the signature is different.
+
+This repo holds only the patch script; bring your own APK if you want to run it yourself.
+
+On first launch the game may open its (dead) Facebook dashboard. Tap **Return to Game**.
 
 ## Star History
 
